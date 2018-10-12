@@ -14,19 +14,17 @@ useragent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firef
 
 
 banner(){
-printf "\t                                           ${f1}*\n"
-printf "\t                           ${f7}____           ${f2}/|\ \n"
-printf "\t      ${f7}_____________________|  |_____     ${f2}/||o\ \n"
-printf "\t     ${f7}/______________________________\   ${f2}/|o|||\ \n"
-printf "\t    ${f7}/________________________________\ ${f2}/|||||o|\ \n"
-printf "\t      ${f3}||___|___||||||||||||___|__|||  ${f2}/||o||||||\ \n"
-printf "\t      ${f3}||___|___||||||||||||___|__|||      ${f3}| |       \n "
-printf "\t      ${f3}||||||||||||||||||||||||||||||${f2}oooooo${f3}| |${f2}ooooooo\n"
-printf "\t${f2}ooooooooooooooooooooooooooooooooooooooooooooooooooooo\n"
+printf "\t${f3}                     ___\n"
+printf "\t                     /======/\n"
+printf "\t            _____   //      \___       ,\n"
+printf "\t             | \ \ //           :,   ./\n"
+printf "\t     |_______|__|_//            ;:; /\n"
+printf "\t    _L_____________\o           ;;;/\n"
+printf "\t____(CCCCCCCCCCCCCC)____________-/__________\n"
 }
 
 menu(){
-	printf "\t${f2}[${f1}1${f2}]${f6} Gempa Terkini                      Author: ${f5}4WSec\n"
+	printf "\t${f2}[${f1}1${f2}]${f6} Gempa Terkini              ${f7}Author: ${f5}4WSec\n"
 	printf "\t${f2}[${f1}2${f2}]${f6} Gempa Dirasakan\n"
 	printf "\t${f2}[${f1}3${f2}]${f6} Tsunami\n"
 	printf "\t${f2}[${f1}4${f2}]${f6} Pesan BMKG\n"
